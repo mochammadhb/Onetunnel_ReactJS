@@ -1,0 +1,13 @@
+
+.textarea {
+  display:block; 
+  width:100%;
+  line-height:20px; 
+  cursor: text;
+  overflow:hidden;
+  padding:5px 10px; 
+  resize:vertical;
+  border:1px solid #aaa;
+  min-height: 36px;
+  max-height: 76px
+}
