@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Index from "./Layout";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path="/*" element={<Index />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
